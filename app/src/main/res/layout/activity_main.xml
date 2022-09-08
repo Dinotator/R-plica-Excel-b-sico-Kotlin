@@ -1,0 +1,2132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:stretchColumns="*">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        >
+
+                        <Button
+                            android:id="@+id/button_importar"
+                            android:text="IMPORTAR ARCHIVO .XLSX"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="0.03"
+                            android:layout_height="match_parent" />
+                        <Button
+                            android:id="@+id/button_limpiar"
+                            android:text="LIMPIAR HOJA"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="0.03"
+                            android:layout_height="match_parent" />
+
+                        <Button
+                            android:id="@+id/button_guardar"
+                            android:text="GUARDAR ARCHIVO"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent" />
+
+
+
+                    </LinearLayout>
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="N"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="A"
+                                android:background="#B6FFF8"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="B"
+                                android:background="#B6FFF8"
+                                android:gravity="center"></TextView>
+
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="C"
+                                android:background="#B6FFF8"
+                                android:gravity="center"></TextView>
+
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="D"
+                                android:background="#B6FFF8"
+                                android:gravity="center"></TextView>
+
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="E"
+                                android:background="#B6FFF8"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="F"
+                                android:background="#B6FFF8"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="G"
+                                android:background="#B6FFF8"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="H"
+                                android:background="#B6FFF8"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="I"
+                                android:background="#B6FFF8"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="J"
+                                android:background="#B6FFF8"
+                                android:gravity="center"></TextView>
+
+
+                        </TableRow>
+
+                    </HorizontalScrollView>
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="1"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/a1"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:gravity="center"
+                                android:hint="A1"
+                                android:padding="20dp"></TextView>
+
+                            <TextView
+                                android:id="@+id/b1"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B1"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c1"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C1"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d1"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D1"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e1"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E1"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f1"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F1"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g1"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G1"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h1"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H1"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i1"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I1"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j1"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J1"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+
+                    </HorizontalScrollView>
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="2"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/a2"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A2"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b2"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B2"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c2"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C2"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d2"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D2"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e2"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E2"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f2"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F2"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g2"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G2"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h2"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H2"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i2"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I2"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j2"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J2"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+                    </HorizontalScrollView>
+
+
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="3"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/a3"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A3"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b3"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B3"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c3"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C3"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d3"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D3"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e3"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E3"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f3"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F3"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g3"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G3"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h3"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H3"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i3"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I3"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j3"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J3"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+                    </HorizontalScrollView>
+
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="4"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/a4"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A4"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b4"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B4"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c4"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C4"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d4"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D4"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e4"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E4"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f4"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F4"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g4"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G4"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h4"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H4"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i4"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I4"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j4"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J4"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+                    </HorizontalScrollView>
+
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="5"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/a5"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A5"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b5"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B5"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c5"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C5"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d5"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D5"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e5"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E5"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f5"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F5"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g5"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G5"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h5"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H5"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i5"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I5"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j5"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J5"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+
+                    </HorizontalScrollView>
+
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="6"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/a6"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A6"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b6"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B6"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c6"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C6"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d6"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D6"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e6"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E6"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f6"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F6"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g6"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G6"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h6"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H6"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i6"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I6"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j6"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J6"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+
+                    </HorizontalScrollView>
+
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="7"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/a7"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A7"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b7"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B7"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c7"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C7"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d7"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D7"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e7"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E7"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f7"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F7"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g7"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G7"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h7"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H7"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i7"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I7"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j7"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J7"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+
+                    </HorizontalScrollView>
+
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="8"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/a8"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A8"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b8"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B8"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c8"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C8"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d8"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D8"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e8"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E8"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f8"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F8"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g8"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G8"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h8"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H8"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i8"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I8"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j8"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J8"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+
+                    </HorizontalScrollView>
+
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="9"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/a9"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A9"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b9"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B9"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c9"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C9"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d9"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D9"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e9"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E9"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f9"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F9"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g9"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G9"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h9"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H9"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i9"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I9"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j9"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J9"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+
+                    </HorizontalScrollView>
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="10"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/a10"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A10"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b10"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B10"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c10"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C10"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d10"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D10"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e10"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E10"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f10"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F10"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g10"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G10"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h10"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H10"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i10"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I10"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j10"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J10"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+
+                    </HorizontalScrollView>
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="11"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/a11"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A11"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b11"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B11"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c11"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C11"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d11"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D11"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e11"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E11"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f11"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F11"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g11"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G11"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h11"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H11"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i11"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I11"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j11"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J11"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+                    </HorizontalScrollView>
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="12"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/a12"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A12"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b12"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B12"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c12"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C12"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d12"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D12"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e12"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E12"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f12"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F12"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g12"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G12"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h12"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H12"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i12"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I12"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j12"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J12"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+
+                    </HorizontalScrollView>
+
+
+
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="13"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/a13"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A13"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b13"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B13"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c13"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C13"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d13"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D13"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e13"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E13"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f13"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F13"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g13"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G13"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h13"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H13"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i13"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I13"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j13"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J13"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+
+                    </HorizontalScrollView>
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="14"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/a14"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A14"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b14"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B14"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c14"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C14"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d14"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D14"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e14"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E14"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f14"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F14"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g14"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G14"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h14"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H14"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i14"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I14"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j14"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J14"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+
+                    </HorizontalScrollView>
+
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="15"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/a15"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A15"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b15"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B15"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c15"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C15"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d15"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D15"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e15"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E15"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f15"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F15"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g15"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G15"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h15"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H15"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i15"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I15"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j15"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J15"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+
+                    </HorizontalScrollView>
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="16"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/a16"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A16"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b16"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B16"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c16"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C16"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d16"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D16"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e16"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E16"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f16"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F16"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g16"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G16"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h16"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H16"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i16"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I16"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j16"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J16"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+
+                    </HorizontalScrollView>
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="17"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/a17"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A17"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b17"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B17"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c17"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C17"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d17"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D17"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e17"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E17"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f17"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F17"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g17"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G17"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h17"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H17"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i17"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I17"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j17"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J17"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+
+                    </HorizontalScrollView>
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="18"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/a18"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A18"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b18"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B18"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c18"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C18"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d18"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D18"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e18"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E18"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f18"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F18"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g18"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G18"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h18"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H18"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i18"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I18"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j18"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J18"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+
+                    </HorizontalScrollView>
+
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="19"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/a19"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A19"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b19"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B19"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c19"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C19"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d19"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D19"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e19"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E19"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f19"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F19"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g19"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G19"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h19"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H19"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i19"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I19"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j19"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J19"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+
+                    </HorizontalScrollView>
+
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent">
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:text="20"
+                                android:background="#35ECDB"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/a20"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="A20"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/b20"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="B20"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/c20"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="C20"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/d20"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="D20"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/e20"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="E20"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/f20"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="F20"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/g20"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="G20"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/h20"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="H20"
+                                android:gravity="center"></TextView>
+
+                            <TextView
+                                android:id="@+id/i20"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="I20"
+                                android:gravity="center"></TextView>
+                            <TextView
+                                android:id="@+id/j20"
+                                android:layout_width="100dp"
+                                android:layout_height="fill_parent"
+                                android:padding="20dp"
+                                android:hint="J20"
+                                android:gravity="center"></TextView>
+                        </TableRow>
+
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </HorizontalScrollView>
+</TableLayout>
